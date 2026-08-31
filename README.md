@@ -31,7 +31,7 @@ This means your code is not only cleaner but technically **thousands of times mo
 
 ## 🤝 What is Rush?
 It's not a perfect tool. **It's a work in progress.**
-It's a set of files (`Rush.h`, `imprimir.h`, `input_cson.h`, etc.) I've created to make C++ feel more natural and faster.
+It's a set of files (`Rush.h`, `console_print.h`, `input_Rush.h`, etc.) I've created to make C++ feel more natural and faster.
 
 It includes:
 - **Type-Safe I/O:** `INPUTs`, `INPUTi`, `INPUTf`, `INPUTd`, `INPUTb`.
