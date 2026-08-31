@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <iostream>
-#include "imprimir.h"
+#include "console_print.h"
 #include "inputRush.h"
 #include "time.h"
 #include "RandomRush.h"
