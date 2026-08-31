@@ -5,6 +5,6 @@
 #include "inputRush.h"
 #include "time.h"
 #include "RandomRush.h"
-#include "operaciones_basicas.h"
+#include "basic_operations.h"
 
 using namespace std;
