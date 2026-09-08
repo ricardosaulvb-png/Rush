@@ -3,7 +3,7 @@
 #include <iostream>
 #include "time.h"
 #include "RandomRush.h"
-#include "operaciones_basicas.h"
+#include "basic_operations.h"
 #include "console_print.h"
 #include "inputRush.h"
 
