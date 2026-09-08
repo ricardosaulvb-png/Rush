@@ -1,29 +1,8 @@
 #pragma once
-#include <string>
-#include <iostream>
+///  PRINT function that prints the given arguments to the console, followed by a newline.
 
-string msg = "";
-int num = 0;
-float dec = 0.0;
-double dbl = 0.0;
-bool logic = false;
-
-inline void PRINTs(string msg) {
-	cout << msg << endl;
+template<typename... Args>
+inline void print(const Args&... args) {
+	(std::cout << ... << args) << "\n";
 }
 
-inline void PRINTi(int num) {
-	cout << num << endl;
-}
-
-inline void PRINTb(bool logic) {
-	cout << boolalpha << logic << endl;
-}
-
-inline void PRINTf(float dec) {
-	cout << dec << endl;
-}
-
-inline void PRINT_d(double dbl) {
-	cout << dbl << endl;
-}
