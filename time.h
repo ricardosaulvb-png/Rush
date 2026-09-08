@@ -2,7 +2,6 @@
 #include <thread>
 #include <chrono>
 
-int ms = 0;
 
 inline void delay(int time)
 {
