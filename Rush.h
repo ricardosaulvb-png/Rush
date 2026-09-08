@@ -5,6 +5,7 @@
 #include "RandomRush.h"
 #include "operaciones_basicas.h"
 #include "console_print.h"
+#include "inputRush.h"
 
 void rushRun() {}
 
