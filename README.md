@@ -35,63 +35,7 @@ int main() {
     cout << "Hola, " << nombre << ", tienes " << edad << " años." << endl;
     
     return 0;
-}
-✅ Rush (Clean, Safe, and Fast)
-cpp
-
-Copiar
-#include "Rush.h"
-
-int main() {
-    start
-        print("Hola, ", "Ricardo", ", tienes ", 25, " años.");
-    finish
-    return 0;
-}
-What we gain:
-
-Less Code: 1 line instead of 5.
-No Type Errors: print automatically detects if it is a string, int, float, etc.
-More Readable: The code reads like a normal sentence.
-🎨 Structure and Aesthetics
-Rush also aims to make code more pleasant to read. We use macros to define the "stage" of your program:
-
-cpp
-
-Copiar
-#define start rushRun();
-#define finish rushEnd();
-
-int main() {
-    start
-        // Your code enters here
-        print("Welcome to the magic of Rush");
-        // Your code ends here
-    finish
-    return 0;
-}
-This frames your main logic, making the flow of the program evident at a glance.
-
-🤝 A Project for the Community
-This project was born from a personal need: I want to improve the language I love, and I want people to join me in doing so.
-
-Rush is a collaborative experiment.
-
-It is not perfect.
-It is constantly evolving.
-I need your help.
-If you like the idea of making C++ faster and more readable, join me.
-
-Try the code.
-If you find a bug, let me know.
-If you want to add a feature, do it.
-If you want to use it in your project, use it freely.
-"The best way to predict the future is to program it."
-
-📄 How to Use It
-Clone the repository.
-Add the .h files to your project.
-Include #include "Rush.h" in your main.cpp.
+}.
 Start coding!
 🌱 License
 This project is licensed under the MIT License. You are free to use, modify, and share it.
