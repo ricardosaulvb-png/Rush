@@ -38,11 +38,9 @@ int main() {
 }
 
 
-
+```cpp
 ✅ Rush (Limpio, Seguro y Rápido)
 cpp
-
-Copiar
 #include "Rush.h"
 
 int main() {
