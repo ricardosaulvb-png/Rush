@@ -36,6 +36,9 @@ int main() {
     
     return 0;
 }
+
+
+
 ✅ Rush (Limpio, Seguro y Rápido)
 cpp
 
@@ -48,6 +51,10 @@ int main() {
     finish
     return 0;
 }
+
+
+
+
 ¿Qué ganamos?
 
 Menos código: 1 línea en lugar de 5.
