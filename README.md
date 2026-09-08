@@ -1,27 +1,27 @@
-# 🚀 Rush: Un Wrapper de C++ para Código Limpio y Rápido
+# 🚀 Rush: A Lightweight C++ Wrapper for Clean and Fast Code
 
-> "El código no debería ser una lucha. Debería ser un flujo."
+> "Code shouldn't be a struggle. It should be a flow."
 
-## 🧬 ¿Qué es Rush?
-**Rush** es una librería ligera (wrapper) para C++ diseñada para eliminar la verbosidad y la sobrecarga de la entrada/salida estándar.
+## 🧬 What is Rush?
+**Rush** is a lightweight C++ wrapper library designed to eliminate verbosity and runtime overhead from standard I/O operations.
 
-No es un lenguaje nuevo, ni un traductor. Es una **capa de abstracción directa** que utiliza **Templates de C++** modernos para conectar tu código con el hardware sin intermediarios.
+It is **not** a new language, nor a translator. It is a **direct abstraction layer** using modern **C++ Templates** to connect your code to hardware without intermediaries.
 
-## ⚡ Rendimiento: ¿Por qué es tan rápido?
-Muchas librerías de "simplificación" usan un "traductor universal" que convierte tipos en tiempo de ejecución (como `std::to_string` o dinámicos en Python). Esto añade una capa de **sobrecarga** (overhead).
+## ⚡ Performance: Why is it Fast?
+Many "simplification" libraries use a "universal translator" that converts types at **runtime** (like `std::to_string` or dynamic types in other languages). This adds a layer of **overhead**.
 
-**Rush no hace eso.**
+**Rush does not do that.**
 
-- **Cero Conversión:** Cuando usas `print(variable)`, el compilador de C++ genera la instrucción de máquina directa para ese tipo específico. No hay búsqueda de diccionario ni conversión de memoria.
-- **Zero-Cost Abstraction:** Los templates de C++ resuelven todo en tiempo de **compilación**. Tu programa final corre tan rápido como si hubieras escrito `std::cout` manualmente.
-- **Eficiencia Real:** Evitas la gestión de memoria dinámica que requieren los traductores universales.
+- **Zero Conversion:** When you use `print(variable)`, the C++ compiler generates the direct machine instruction for that specific type. There is no dictionary lookup or memory conversion.
+- **Zero-Cost Abstraction:** C++ templates resolve everything at **compile time**. Your final program runs as fast as if you had written `std::cout` manually.
+- **Real Efficiency:** You avoid the dynamic memory management required by universal translators.
 
-> *"Rush no añade capas de abstracción. Las elimina."*
+> *"Rush doesn't add layers of abstraction. It removes them."*
 
-## 📜 El Código: Antes vs. Después
-La diferencia no es solo estética, es **eficiencia**.
+## 📜 Code: Before vs. After
+The difference is not just aesthetic; it is **efficiency**.
 
-### ❌ C++ Tradicional (Verboso y propenso a errores)
+### ❌ Traditional C++ (Verbose and Error-Prone)
 ```cpp
 #include <iostream>
 #include <string>
@@ -31,16 +31,15 @@ int main() {
     string nombre = "Ricardo";
     int edad = 25;
     
-    // Larga, propensa a errores de tipos, difícil de leer
+    // Long, prone to type errors, hard to read
     cout << "Hola, " << nombre << ", tienes " << edad << " años." << endl;
     
     return 0;
 }
-
-
-```cpp
-✅ Rush (Limpio, Seguro y Rápido)
+✅ Rush (Clean, Safe, and Fast)
 cpp
+
+Copiar
 #include "Rush.h"
 
 int main() {
@@ -49,17 +48,13 @@ int main() {
     finish
     return 0;
 }
+What we gain:
 
-
-
-
-¿Qué ganamos?
-
-Menos código: 1 línea en lugar de 5.
-Sin errores de tipos: print detecta automáticamente si es string, int, float, etc.
-Más legible: El código se lee como una oración normal.
-🎨 Estructura y Estética
-Rush también busca hacer el código más agradable de leer. Usamos macros para definir el "escenario" de tu programa:
+Less Code: 1 line instead of 5.
+No Type Errors: print automatically detects if it is a string, int, float, etc.
+More Readable: The code reads like a normal sentence.
+🎨 Structure and Aesthetics
+Rush also aims to make code more pleasant to read. We use macros to define the "stage" of your program:
 
 cpp
 
@@ -69,34 +64,36 @@ Copiar
 
 int main() {
     start
-        // Tu código entra aquí
-        print("Bienvenido a la magia de Rush");
-        // Tu código termina aquí
+        // Your code enters here
+        print("Welcome to the magic of Rush");
+        // Your code ends here
     finish
     return 0;
 }
-Esto enmarca tu lógica principal, haciendo que el flujo del programa sea evidente de un vistazo.
+This frames your main logic, making the flow of the program evident at a glance.
 
-🤝 Un Proyecto para la Comunidad
-Este proyecto nació de una necesidad personal: quiero mejorar el lenguaje que amo y que la gente se una al hacerlo.
+🤝 A Project for the Community
+This project was born from a personal need: I want to improve the language I love, and I want people to join me in doing so.
 
-Rush es un experimento colaborativo.
+Rush is a collaborative experiment.
 
-No es perfecto.
-Está en constante evolución.
-Necesito tu ayuda.
-Si te gusta la idea de hacer C++ más rápido y legible, únete.
+It is not perfect.
+It is constantly evolving.
+I need your help.
+If you like the idea of making C++ faster and more readable, join me.
 
-Prueba el código.
-Si encuentras un bug, avísame.
-Si quieres añadir una función, hazlo.
-Si quieres usarlo en tu proyecto, úsalo libremente.
-"La mejor manera de predecir el futuro es programarlo."
+Try the code.
+If you find a bug, let me know.
+If you want to add a feature, do it.
+If you want to use it in your project, use it freely.
+"The best way to predict the future is to program it."
 
-📄 Cómo usarlo
-Clona el repositorio.
-Añade los archivos .h a tu proyecto.
-Incluye #include "Rush.h" en tu main.cpp.
-¡Empieza a codificar!
-🌱 Licencia
-Este proyecto está bajo la licencia MIT. Eres libre de usarlo, modificarlo y compartirlo.
+📄 How to Use It
+Clone the repository.
+Add the .h files to your project.
+Include #include "Rush.h" in your main.cpp.
+Start coding!
+🌱 License
+This project is licensed under the MIT License. You are free to use, modify, and share it.
+
+Rush — Fast. Clean. Open.
