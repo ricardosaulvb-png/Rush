@@ -37,7 +37,7 @@ int main() {
     return 0;
 }.
 ```
- Rush (Clean, Safe, and Fast)
+> "Rush (Clean, Safe, and Fast)"
  
 ```cpp
 #include "Rush.h"
@@ -50,7 +50,7 @@ int main() {
 }
 ```
 
-What we gain:
+## What we gain:
 
 Less Code: 1 line instead of 5.
 No Type Errors: print automatically detects if it is a string, int, float, etc.
@@ -73,7 +73,7 @@ int main() {
 ```
 This frames your main logic, making the flow of the program evident at a glance.
 
-🤝 A Project for the Community
+## 🤝 A Project for the Community
 This project was born from a personal need: I want to improve the language I love, and I want people to join me in doing so.
 
 Rush is a collaborative experiment.
@@ -89,7 +89,7 @@ If you want to add a feature, do it.
 If you want to use it in your project, use it freely.
 "The best way to predict the future is to program it."
 
-📄 How to Use It
+## 📄 How to Use It
 Clone the repository.
 Add the .h files to your project.
 Include #include "Rush.h" in your main.cpp.
