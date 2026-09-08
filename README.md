@@ -36,6 +36,8 @@ int main() {
     
     return 0;
 }.
+```
+
 Start coding!
 🌱 License
 This project is licensed under the MIT License. You are free to use, modify, and share it.
