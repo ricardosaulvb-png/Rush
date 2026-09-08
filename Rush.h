@@ -1,10 +1,15 @@
 #pragma once
 #include <string>
 #include <iostream>
-#include "console_print.h"
-#include "inputRush.h"
 #include "time.h"
 #include "RandomRush.h"
-#include "basic_operations.h"
+#include "operaciones_basicas.h"
+#include "sidb.h"
 
-using namespace std;
+void rushRun() {}
+
+void rushEnd() {}
+
+#define start rushRun();
+#define finish rushEnd();	
+
