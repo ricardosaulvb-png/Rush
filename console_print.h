@@ -15,6 +15,11 @@ inline IOSetup io_setup;
 
 template<typename... Args>
 inline void print(const Args&... args) {
+	(std::cout << ... << args);
+}
+
+template<typename... Args>
+inline void println(const Args&... args) {
 	(std::cout << ... << args) << "\n";
 }
 
