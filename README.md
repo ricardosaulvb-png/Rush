@@ -84,7 +84,7 @@ Rush is a collaborative experiment.
 
 It is not perfect.
 It is constantly evolving.
-If you like the idea of making C++ faster and more readable, join me.
+If you like the idea of making C++ faster and more readable.
 
 Try the code.
 If you find a bug, let me know.
