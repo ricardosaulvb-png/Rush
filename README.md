@@ -45,9 +45,10 @@ int main() {
 int main() {
     start
 
-    string nombre = "Ricardo";
-    int edad = 25;
-    print("Hola, ", "Ricardo", ", tienes ", 25, " años.");
+        string nombre = "Ricardo";
+        int edad = 25;
+
+        print("Hola, ", "Ricardo", ", tienes ", 25, " años.");
 
     finish
     return 0;
@@ -56,7 +57,6 @@ int main() {
 
 ## What we gain:
 
-Less Code: 1 line instead of 5.
 No Type Errors: print automatically detects if it is a string, int, float, etc.
 More Readable: The code reads like a normal sentence.
 🎨 Structure and Aesthetics
