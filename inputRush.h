@@ -14,7 +14,7 @@ inline IOSetup io_setup;
 /// INPUT function that reads the given arguments from the console.
 
 template<typename... Args>
-inline void readtxt(const char* prompt, Args&... args) {
+inline void readtxt(std::string_view prompt, Args&... args) {
 	std::cout << prompt;
 	(std::cin >> ... >> args);
 }
