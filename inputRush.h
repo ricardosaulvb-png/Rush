@@ -16,10 +16,10 @@ inline IOSetup io_setup;
 template<typename... Args>
 inline void readtxt(std::string_view prompt, Args&... args) {
 	std::cout << prompt;
-	(std::cin >> ... >> args);
+	return static_cast<bool>((std::cin >> ... >> args));
 }
 
 template<typename... Args>
 inline void read(Args&... args) {
-	(std::cin >> ... >> args);
+	return static_cast<bool>((std::cin >> ... >> args));
 }
