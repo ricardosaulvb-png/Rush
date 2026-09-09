@@ -78,13 +78,12 @@ int main() {
 This frames your main logic, making the flow of the program evident at a glance.
 
 ## 🤝 A Project for the Community
-This project was born from a personal need: I want to improve the language I love, and I want people to join me in doing so.
+This project was born from a personal need: I want to improve the language I love.
 
 Rush is a collaborative experiment.
 
 It is not perfect.
 It is constantly evolving.
-I need your help.
 If you like the idea of making C++ faster and more readable, join me.
 
 Try the code.
