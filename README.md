@@ -44,7 +44,11 @@ int main() {
 
 int main() {
     start
-        print("Hola, ", "Ricardo", ", tienes ", 25, " años.");
+
+    string nombre = "Ricardo";
+    int edad = 25;
+    print("Hola, ", "Ricardo", ", tienes ", 25, " años.");
+
     finish
     return 0;
 }
