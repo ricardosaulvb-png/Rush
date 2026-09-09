@@ -2,12 +2,12 @@
 
 > "Code shouldn't be a struggle. It should be a flow."
 
-## 🧬 What is Rush?
+## What is Rush?
 **Rush** is a lightweight C++ wrapper library designed to eliminate verbosity and runtime overhead from standard I/O operations.
 
 It is **not** a new language, nor a translator. It is a **direct abstraction layer** using modern **C++ Templates** to connect your code to hardware without intermediaries.
 
-## ⚡ Performance: Why is it Fast?
+## Performance: Why is it Fast?
 Many "simplification" libraries use a "universal translator" that converts types at **runtime** (like `std::to_string` or dynamic types in other languages). This adds a layer of **overhead**.
 
 **Rush does not do that.**
@@ -18,10 +18,10 @@ Many "simplification" libraries use a "universal translator" that converts types
 
 > *"Rush doesn't add layers of abstraction. It removes them."*
 
-## 📜 Code: Before vs. After
+## Code: Before vs. After
 The difference is not just aesthetic; it is **efficiency**.
 
-### ❌ Traditional C++ (Verbose and Error-Prone)
+### Traditional C++ (Verbose and Error-Prone)
 ```cpp
 #include <iostream>
 #include <string>
